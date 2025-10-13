@@ -25,7 +25,7 @@ def average_rating(files):
     result = []
     for b in brands:
         avg = round(brands[b] / counts[b], 2)
-    result.append([b, avg])
+        result.append([b, avg])
 
     result.sort(key=lambda x: x[1], reverse=True)
     return result
