@@ -5,7 +5,6 @@ from tabulate import tabulate
 from reports import REPORTS
 
 def read_csv_files(file_paths):
-    """Читает все CSV-файлы и возвращает список строк (dict)."""
     data = []
     for path in file_paths:
         try:
