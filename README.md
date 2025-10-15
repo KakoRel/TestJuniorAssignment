@@ -14,9 +14,10 @@
 
 #### скриншот запуска тестов
 <img width="1195" height="477" alt="image" src="https://github.com/user-attachments/assets/b040b9e2-8e30-4192-bd1f-eb7248edadc6" />
-|№ | Название теста | Что проверяет |
-|----------|----------|----------|
-| 1 | `test_average_rating_basic`   | Среднее значение и агрегация по бренду   |
-| 2 | `test_average_rating_ignores_invalid_rows`   | Игнорирование пустых и ошибочных строк   |
-| 3 | `test_average_rating_sorting`| Правильный порядок сортировки по рейтингу   |
-| 4 | `test_average_rating_handles_empty_file`   | Обработка пустого файла   |
+
+|№         | Название теста                               | Что проверяет                             | Результат |
+|----------|----------------------------------------------|-------------------------------------------|:-----------:|
+| 1        | `test_average_rating_basic`                  | Среднее значение и агрегация по бренду    |   ✅   |
+| 2        | `test_average_rating_ignores_invalid_rows`   | Игнорирование пустых и ошибочных строк    |   ✅   |
+| 3        | `test_average_rating_sorting`                | Правильный порядок сортировки по рейтингу |   ✅   |
+| 4        | `test_average_rating_handles_empty_file`     | Обработка пустого файла                   |   ✅   |
